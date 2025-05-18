@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Zilla Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="theme-toggle-container">
+    <button id="themeToggle">🌙 Toggle Dark Mode</button>
+  </div>
+
+  <div class="container">
+    <h1>Mood Tracker</h1>
+    <form id="moodForm">
+      <label for="mood">How are you feeling today?</label>
+      <select id="mood" required>
+        <option value="">Select Mood</option>
+        <option value="happy">😊 Happy</option>
+        <option value="sad">😢 Sad</option>
+        <option value="anxious">😟 Anxious</option>
+        <option value="angry">😡 Angry</option>
+        <option value="excited">😃 Excited</option>
+      </select>
+      <button type="submit">Track Mood</button>
+    </form>
+
+    <h2 id="moodHistoryHeader" style="display: none;">Mood History</h2>
+    <ul id="moodHistory"></ul>
+    <button id="clearHistory" style="display: none;">Clear All</button>
+
+    <h2 id="monthlyReportHeader" style="display: none;">Monthly Mood Report</h2>
+    <p id="monthlyReport"></p>
+
+    <h2>Mood Calendar</h2>
+    <table id="moodCalendar">
+      <thead>
+        <tr>
+          <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th>
+          <th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <h2 id="musicSuggestionHeader" style="display: none;">Music Suggestions Based on Your Mood</h2>
+    <ul id="musicSuggestion"></ul>
+
+    <footer>
+      <p>Powered by <a href="https://github.com/Jyoti-crypto/Moodzillahub.git">Mood Tracker</a> by <a href="https://jyoti.crypto">Jyoti</a>.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
