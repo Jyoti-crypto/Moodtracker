@@ -1,5 +1,5 @@
 
-# 🌈 Mood Zilla Hub
+# 🌈 Mood Tracker
 
 Mood Zilla Hub is a responsive, interactive web app that lets users **track their daily moods**, **visualize patterns**, and **get personalized music suggestions**. It supports both **light and dark modes** and stores user data in local storage to persist across sessions.
 
