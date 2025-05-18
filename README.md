@@ -9,12 +9,12 @@ Mood Zilla Hub is a responsive, interactive web app that lets users **track thei
 
 1. **Clone the repository** or download the project files:
    ```bash
-   git clone https://github.com/Jyoti-crypto/Moodzillahub.git
+   git clone https://github.com/Jyoti-crypto/Moodtracker.git
    ```
 
 2. **Navigate to the project folder**:
    ```bash
-   cd Moodzillahub
+   cd Moodtracker
    ```
 
 3. **Open `index.html`** in your web browser:
