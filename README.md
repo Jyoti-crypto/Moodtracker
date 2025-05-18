@@ -85,4 +85,4 @@ Moodzillahub/
 
 Made with ❤️ by [Jyoti](https://github.com/Jyoti-crypto)
 
-GitHub: [Moodzillahub Repo](https://github.com/Jyoti-crypto/Moodzillahub.git)
+GitHub: [Moodtracker Repo](https://github.com/Jyoti-crypto/Moodtracker.git)
